@@ -1,0 +1,93 @@
+{% extends 'smallapp/home/base.html' %}
+
+    {% load static %}
+    {#加载js文件#}
+    {% block extjs %}
+        <script src="{% static 'js/jquery-2.1.0.js' %}"></script>
+        <script src="{% static 'js/login01.js' %}"></script>
+    {% endblock %}
+    {% block extcss %}
+    <link rel="stylesheet" href="{% static 'css/top.css' %}">
+    <link rel="stylesheet" href="{% static 'css/button.css' %}">
+    <link rel="stylesheet" href="{% static 'css/login.css' %}">
+    {% endblock %}
+{#    <script>#}
+{#		/*jq和js一样，需要绑定 事件:绑定方式进行优化啦*/#}
+{#		//当这个文档被读取完成后马上执行的jq语句#}
+{#		$(document).ready(function(){#}
+{#			//。blur 和input标签中的 onBlur等效#}
+{#			$("#inputPassword3").blur(function(){#}
+{#				var upwdValue= $("#inputPassword3").val(); //val 等效于 js中的 value#}
+{#				console.log(upwdValue);#}
+{#				var cssr=/^[0-9]{6,8}$/;#}
+{#				var arr = $(".pwdErr");#}
+{#				if(cssr.test(upwdValue)){#}
+{#					//jq对象转js对象#}
+{#					var jsObj=arr[0]; //获取arr的0下标;同时 jq对象依据转为js对象#}
+{#					//$(jsObj) 是将js对象转为jq对象#}
+{#					$(jsObj).text("OK<h3>验证</h3>");  //等效与 js中的 innerTest#}
+{#				}else{#}
+{#					//jq对象转js对象#}
+{#					var jsObj=arr[0]; //获取arr的0下标;同时 jq对象依据转为js对象#}
+{#					//$(jsObj) 是将js独享转为jq对象#}
+{#					$(jsObj).html("<h3>密码长度不对 7-8个数字</h3>");#}
+{#				}#}
+{#			});//绑定事件#}
+{##}
+{#			//绑定重复密码    1.数据哪里来？ 2.数据怎么处理  3.数据怎么反馈#}
+{##}
+{##}
+{##}
+{#		}); //传入一个参数 function#}
+{#	</script>#}
+<!--中间内容-->
+{% block base %}
+{#    <div class="login">#}
+{#<form action="/do_login/" method="post" id="login">#}
+{#    {% csrf_token %}#}
+{#    <h2>登陆</h2>#}
+{#    账号名称:<input type="text" name="username"><br>#}
+{#    密码:<input type="password" name="password"><br>#}
+{#</form>#}
+{#    </div>#}
+    {% include 'smallapp/home/bootcss.html' %}
+<div class="jumbotron" style="text-align: center">
+    <h1>登录</h1>
+    <a class="btn btn-primary" href="{% url 'register' %}" role="button">去注册</a>
+    <hr>
+    <div class="container">
+        <div class="row">
+
+            <div>
+                <form action="{% url 'do_login' %}" method="post" class="form-horizontal">
+                    {% csrf_token %}
+
+                    <div class="form-group" style="position: relative;top: 70px;left: 240px" >
+                        <label for="inputEmail3" class="col-sm-2 control-label">用户名</label>
+                        <div class="col-sm-4">
+                            <input type="text" class="form-control" id="inputEmail3" name='username' placeholder="用户名"
+                                   required>
+                        </div>
+                        <span class="unameErr"></span>
+                    </div>
+                    <div class="form-group" style="position: relative;top: 100px;left: 240px">
+                        <label for="inputPassword3" class="col-sm-2 control-label">密码</label>
+                        <div class="col-sm-4">
+                            <input type="password" class="form-control" id="inputPassword3" name='pswd' placeholder="密码"
+                                   required>
+                        </div>
+                        <span class="pwdErr"></span>
+                    </div>
+                    <div class="form-group" style="position: relative;top: 120px;left: 400px">
+                        <div class="col-sm-4">
+                            <button type="submit" class="btn btn-success">登录</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
+

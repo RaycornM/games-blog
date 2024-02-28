@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4cafd223-ca77-4feb-95fb-01f7047f2205" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jupyter Notebook" />
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="Python Script" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="22BRcNq4G9E1N3b5iT4D1w0D8mJ" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/img" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\project PythonFinallyWork\Demo01\Project20211212\Templates\smallapp\home" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\project PythonFinallyWork\Demo01\Project20211212\static\img" />
+      <recent name="D:\project PythonFinallyWork\Demo01\Project20211212\static\img\wz" />
+      <recent name="D:\project PythonFinallyWork\Demo01\Project20211212\static\css" />
+      <recent name="D:\project PythonFinallyWork\Demo01\Project20211212\Templates\smallapp\home\wz" />
+      <recent name="D:\project PythonFinallyWork\Demo01\Project20211212\static\img\zx" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Project20211212" type="Python.DjangoServer" factoryName="Django server">
+      <module name="Project20211212" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="Project20211212.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4cafd223-ca77-4feb-95fb-01f7047f2205" name="Default Changelist" comment="" />
+      <created>1639309072524</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1639309072524</updated>
+      <workItem from="1639309073667" duration="2825000" />
+      <workItem from="1639355467343" duration="17382000" />
+      <workItem from="1639474269383" duration="8969000" />
+      <workItem from="1639550106965" duration="5008000" />
+      <workItem from="1639617568326" duration="4351000" />
+      <workItem from="1639730355079" duration="1937000" />
+      <workItem from="1639733403591" duration="8362000" />
+      <workItem from="1639789847190" duration="4989000" />
+      <workItem from="1639822616472" duration="5994000" />
+      <workItem from="1639960988462" duration="9722000" />
+      <workItem from="1639982290949" duration="6323000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

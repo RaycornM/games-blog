@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box; }
+
+a,
+button {
+  font-size: 13px; }
+
+a.button {
+  text-decoration: none; }
+
+button.button {
+  border: 1px solid #FA773C;
+  font-family: "Suez One";
+  padding: 0;
+  cursor: pointer;
+  font-style: oblique; }
+  @media screen and (-ms-high-contrast: active) {
+    button.button {
+      border: 1px solid #FA773C; } }
+
+a.button,
+button.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  align-self: start;
+  position: absolute;
+  top: 127.5%;
+  left: 58%;
+  background-color: white;
+  color: #FF8C62;
+  border-radius: 1px;
+  min-width: 12ch;
+  min-height: 40px;
+  text-align: center;
+  line-height: 1.1;
+  transition: 220ms all ease-in-out; }
+  a.button:hover, a.button:active,
+  button.button:hover,
+  button.button:active {
+    background-color: white; }
+  a.button:focus,
+  button.button:focus {
+    outline-style: solid;
+    outline-color: #FF8C62;
+    box-shadow: 0 0 0 2px white; }
+  a.button--small,
+  button.button--small {
+    font-size: 13px; }
+
+/*# sourceMappingURL=button.css.map */

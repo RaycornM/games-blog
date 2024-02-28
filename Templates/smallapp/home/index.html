@@ -1,0 +1,91 @@
+{% extends 'smallapp/home/base.html' %}
+
+    {% load static %}
+
+    {% block extcss %}
+    <link rel="stylesheet" href="{% static 'css/top.css' %}">
+    <link rel="stylesheet" href="{% static 'css/button.css' %}">
+
+    {% endblock %}
+<!--中间内容-->
+{% block base %}
+<main class="main">
+    <div class="fenlei">
+    <p style="font-family: Playfair Display;font-size: 50px;color: #576A7A;" align="center"><i>Welcome to JiaGou Games Blog</i></p>
+    <a href="/zx/"><img src="{% static 'img/2042.jpeg' %}" class="zixun"></a>
+        <a href="/wz/"><img src="{% static 'img/gta.jpeg' %}" class="wenzhang"></a>
+    <p class="zixunw" align="center"><i>資訊</br>The latest information</i></p>
+    <p class="wenzhangw" align="center"><i>文章</br>Recent tweets</i></p>
+        </br>
+    </div>
+    <div class="mid">
+    <img src="img/ava.png" class="ava">
+        <p class="sp" align="center">Who can take the unexpected by surprise</br> Be a secret player</p>
+    </div>
+    <div>
+        <img src="img/游戏手柄.png" class="bowenicon">
+        <p class="bowenw">最新博文</p>
+        <a href="dayawan.html" ><img src="img/01.JPG" class="ph"></a>
+        <div class="newsbox">
+            <p class="biaoti">一周热点游戏资讯</p>
+            <p class="zhengwen"> 2021年12月2期  </p>
+            <a href="javascript:;"  class="more">閲讀正文</a>
+            <div class="bord">
+                <br/><div></div><img src="img/LM.png">
+                <p class="like">&#10084;</p>
+            </div>
+            <img src="img/02.JPG" class="ph2">
+            <div class="newsbox2">
+                <p class="biaoti2">E宝依旧势不可挡！</p>
+                <p class="zhengwen2">次世代首款动作3A开放免费领取，圣诞节活动即将到来~</p>
+                <a href="javascript:;" class="more2">閲讀正文</a>
+                <div class="bord2">
+                    <br/><div></div><img src="img/LM.png">
+                    <p class="like2">&#10084;</p>
+                </div>
+            </div>
+            <img src="img/03.jpg" class="ph3">
+            <div class="newsbox3">
+                <p class="biaoti3">育碧“非罐头”游戏盘点</p>
+                <p class="zhengwen3">艺术性与创新性才是它屹立35年的养料</p>
+                <a href="javascript:;" class="more3">閲讀正文</a>
+                <div class="bord3">
+                    <br/><div></div><img src="img/LM.png">
+                    <p class="like3">&#10084;</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="about">
+        </br>
+        <img src="img/A.png" class="abouticon">
+        </br>
+        </br>
+        </br>
+        <p class="aboutw">關於我們</p>
+        <img src="img/us.png" class="us">
+        <p class="words">  我們是五個熱愛游戲的代碼人，游戲更是伴隨我們從小到大。</br>從小游玩的4399到初嘗端游，到高中和同學朋友偷偷游玩手游</br>主機，再到大學能夠暢游游戲的世界。
+            </br>游戲帶給我們的不止是歡樂，好的游戲能讓我們有更多的思考，</br>優秀的製作人也會在游戲裏傳達屬於他們的感悟。
+            我們希望能</br>爲大家選擇出優質有趣的游戲，游戲不只是用來玩樂消磨時間，</br>我們也能從中體會到屬於那個游戲的感動，領會製作人們的熱</br>血和誠心。
+        </br>我們用心發掘游戲，用心體會游戲。也請相信我們五個熱愛游</br>戲的赤誠之人。</p>
+        <div >
+            <a href="index.html" ><button class="button" type="button">瞭解更多</button></a>
+        </div>
+    </div>
+<div class="hot">
+<img src="img/flame.png" class="flame">
+    <p class="flamew">熱門游戲</p>
+    <img src="img/2042.jpeg" class="i1">
+    <p class="i1w" align="center">《戰地2042》</p>
+    <img src="img/gta5.jpeg" class="i2">
+    <p class="i2w" align="center">《GTA5》</p>
+    <img src="img/forza5.jpeg" class="i3">
+    <p class="i3w" align="center">《地平綫5》</p>
+    <img src="img/darksoul3.jpeg" class="i4">
+    <p class="i4w" align="center">《黑暗之魂3》</p>
+    <img src="img/csgo.jpeg" class="i5">
+    <p class="i5w" align="center">《CSGO》</p>
+</div>
+
+</main>
+{% endblock %}

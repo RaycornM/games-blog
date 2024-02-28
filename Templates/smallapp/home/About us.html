@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About us</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/top.css' %}">
+    <link rel="stylesheet" href="{% static 'css/button.css' %}">
+
+	<style>
+
+	.pepega{
+
+				top: 0;
+				right: 0;
+				bottom: 0;
+				left: 0;
+				height:99%;
+				background-colr: #dcf1ff;
+				margin: auto;
+				width: 97%
+
+
+			}
+	.contentre1{
+					background-color: #ffffff;
+					width: 32%;
+					height: auto;
+					margin-right: 5px;
+					float: left;
+				}
+				.url{display:block;
+				width:100%;
+				height:auto;
+
+				}
+
+
+	</style>
+
+
+</head>
+<body tabindex="-1" >
+
+<nav aria-label="Main Navigation">
+    <img src="{% static 'img/logo.png' %}" class="logo" alt="">
+    <div1><b>JiaGou</b></div1>
+    <div2>GamesBlog</div2>
+    <div class="a" style="position: relative;top: 20px;left: 600px"><img src="{% static 'img/connect.png' %}"></div>
+    <ul>
+        <li><a href="/index/">主頁</a></li>
+        <li class="dropdown">
+            <!-- aria-expanded needs managed with Javascript -->
+            <button type="button" class="dropdown__title" aria-expanded="false" aria-controls="sweets-dropdown">
+                &nbsp;&nbsp;&nbsp;&nbsp;博文
+            </button>
+            <ul class="dropdown__menu" id="sweets-dropdown">
+                <li><a href="/zx/">資訊</a></li>
+                <li><a href="/wz/">文章</a></li>
+            </ul>
+        </li>
+        <li><a href="/aboutUs/">關於</a></li>
+        <li><a href="/login01/">聯係</a></li>
+    </ul>
+
+    <br />
+    <div class="space"></div>
+</nav>
+<main >
+	<div style="width:500px;">
+	   <img src="http://6.pic.paopaoche.net/thumb/up/2018-8/2018831151218_600_0.png"
+	   align="right" width="266" hspace="5" vspace="5">
+	<p>
+	    &nbsp;&nbsp;&nbsp;我9岁时，有了第一台FC红白机。
+		《魂斗罗》，三条命，我打不过第二关。念兹在兹，日思夜想，盘算每一个关节，怎么才能过去呢？一星期后，我跟一个哥哥聊天，他告诉了我无上秘技上上下下左右左右BA。
+		后来便不消多提了。实际上，到我四年级时，也修炼到能三条命过八关，靠奖分长命到十条了。行云流水，信手拈来，真到了庖丁解牛游刃有余的境界。
+		但我最快乐的是什么时候？
+		答：是我第一次听说这条秘技、欣喜若狂、回到家、输入、真看见自己有三十条命的时候。
+
+	</p>
+	</div>
+	<div style="width:500px;">
+	   <img src="http://p9.itc.cn/images03/20200531/3a774a9cea094b168857a3535b977569.jpeg"
+	   align="left" width="255" hspace="5" vspace="5">
+	<p>
+	    &nbsp;&nbsp;&nbsp;我11岁，国内买得到《霸王的大陆》了。
+		但初上手，很麻烦。全日文，每条指令是什么意思，每个武将是谁，计策怎么用，单挑指令怎么发，一点点琢磨。
+		那时没有网络，查不到攻略，只能一点点猜。在学校，和其他同学画地图，研究武将的出现地点和规律，研究布阵，研究最优路线。
+
+		某一周末我爸妈回老家吃喜酒，我得以玩了个通宵。玩到后半夜，其实略微麻木了。这就像，打RPG游戏最快乐的，永远是攒足了钱、买到新武器；或是刚升级领悟新魔法的时候。我打《封神榜》，打《吞食天地》，破了关，感觉也不过如此；在其中奔逐时，有所期望，反而还刺激些。
+
+	</p>
+	</div>
+	<div style="width:500px;">
+	   <img src="https://tse2-mm.cn.bing.net/th/id/OIP-C.m9UW7XvSyKs3BOL2anHcEAHaE8?w=270&h=180&c=7&r=0&o=5&dpr=1.25&pid=1.7" 
+	   align="right" width="360" hspace="5" vspace="5">
+	<p>
+	    &nbsp;&nbsp;&nbsp;开始时，也许是简单的操控感、游戏性、刺激、紧张和满足感，让你喜欢了一个游戏。然后，你投注了心力，也确实得到了回报。之后，你就进入了这个游戏的世界；你(和你的朋友们)因此得到了一份可以经常拿起来回忆的共同体验。那是一个你(们)独自拥有的私人世界。
+		许多老玩家会放不下自己玩得最熟的老游戏，就是如此。
+		最后，游戏和现实是可以混融的——你会相信那是个值得一去的世界。
+
+	</p>
+	</div>
+	<div style="width:500px;">
+	   <img src="https://tse2-mm.cn.bing.net/th/id/OIP-C.m9UW7XvSyKs3BOL2anHcEAHaE8?w=270&h=180&c=7&r=0&o=5&dpr=1.25&pid=1.7" 
+	   align="left" width="249" hspace="5" vspace="5">
+	<p>
+	    &nbsp;&nbsp;&nbsp;设计精妙的游戏，可以让你体验另一个宏伟的世界——《GTA》系列、如龙系列、《荒野大镖客》、魔兽世界系列、FF系列、DQ系列…
+		王小波《万寿寺》结尾说人需要一个诗意的世界。通常，读书和看电影可以给我们提供另一个世界来体验，但游戏是最直观的体验方式。
+		这种个人世界的体验，是很独一无二的。体验过的人或有共同体验的人都明白，没体验过的人，怎么说都没法子。
+
+	</p>
+	</div>
+	<div style="width:500px;">
+	   <img src="https://tse2-mm.cn.bing.net/th/id/OIP-C.m9UW7XvSyKs3BOL2anHcEAHaE8?w=270&h=180&c=7&r=0&o=5&dpr=1.25&pid=1.7" 
+	   align="right" width="349" hspace="5" vspace="5">
+	<p>
+	    &nbsp;&nbsp;&nbsp;游戏可以让我暂时回到某个时光。比如，我现在拿起《霸王的大陆》开始玩儿，就有种回到13岁时暑假的感觉。
+		套路很熟，游戏没有挑战性，但你会一直沉溺于此——其实就是暂时回到了那个我们最熟悉不过的世界里。
+	</p>
+	</div>
+	<div style="width:500px;">
+	   <img src="https://tse2-mm.cn.bing.net/th/id/OIP-C.m9UW7XvSyKs3BOL2anHcEAHaE8?w=270&h=180&c=7&r=0&o=5&dpr=1.25&pid=1.7" 
+	   align="left" width="229" hspace="5" vspace="5">
+	<p>
+	   &nbsp;&nbsp;&nbsp; 如果大伙能看到这里，那么相信你们也有从其中感受到玩游戏的欢乐。
+		本篇博客，致力于...
+	</p>
+	</div>
+
+
+</main>
+</br>
+<footer>
+    </br>
+    <p>&copy; 2021 513's GamesBlog </p>
+</footer>
+</body>
+</html>
