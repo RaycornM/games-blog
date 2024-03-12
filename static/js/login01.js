@@ -1,5 +1,5 @@
 $(document).ready(function(){
-			//。blur 和input标签中的 onBlur等效
+			//blur 和input标签中的 onBlur等效
             $("#inputEmail3").blur(function(){
 				var upwdValue= $("#inputEmail3").val(); //val 等效于 js中的 value
 				console.log(upwdValue);
@@ -34,11 +34,4 @@ $(document).ready(function(){
 					$(jsObj02).html("<h3>密码长度不对 7-8个数字</h3>");
 				}
 			});//绑定事件
-
-
-
-
-
 		}); //传入一个参数 function
-
-
