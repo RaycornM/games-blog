@@ -1,28 +1,22 @@
-	.pepega{
-				
-				top: 0;
-				right: 0;
-				bottom: 0;
-				left: 0;
-				height:99%;
-				background-colr: #dcf1ff;
-				margin: auto;
-				width: 97%
-				
-				
-			}
-			
-			.pepegaa{
-						
-						top: 0;
-						right: 0;
-						bottom: 0;
-						left: 0;
-						height:100%;
-						background-color: #e7eae8;
-						border:1px;
-						margin: auto;
-						width: 55%
-						
-						
-					}
+.pepega {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 99%;
+    background-color: #dcf1ff;
+    margin: auto;
+    width: 97%
+}
+
+.pepegaa {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    background-color: #e7eae8;
+    border: 1px;
+    margin: auto;
+    width: 55%
+}
