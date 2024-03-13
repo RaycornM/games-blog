@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>文章</title>
@@ -8,106 +9,97 @@
     <link rel="stylesheet" href="{% static 'css/button.css' %}">
     <link rel="stylesheet" href="{% static 'css/B1ogger.css' %}">
 </head>
-<body tabindex="-1"  background="{% static 'img/zx/资讯01配图/大表哥2.png' %}" >
 
-<nav aria-label="Main Navigation">
-    <img src="{% static 'img/logo.png' %}" class="logo" alt="">
-    <div1><b>JiaGou</b></div1>
-    <div2>GamesBlog</div2>
-    <div class="a" style="position: relative;top: 20px;left: 600px"><img src="{% static 'img/connect.png' %}"></div>
-    <ul>
-        <li><a href="/index/">主頁</a></li>
-        <li class="dropdown">
-            <!-- aria-expanded needs managed with Javascript -->
-            <button type="button" class="dropdown__title" aria-expanded="false" aria-controls="sweets-dropdown">
-                &nbsp;&nbsp;&nbsp;&nbsp;博文
-            </button>
-            <ul class="dropdown__menu" id="sweets-dropdown">
-                <li><a href="/zx/">资讯</a></li>
-                <li><a href="/wz/">文章</a></li>
-            </ul>
-        </li>
-        <li><a href="/aboutUs/">關於</a></li>
-        <li><a href="/login01/">聯係</a></li>
-    </ul>
+<body tabindex="-1" background="{% static 'img/zx/资讯01配图/大表哥2.png' %}">
 
-    <br />
-    <div class="space"></div>
-</nav>
-<div class="pepegaa"> 
-<div class="pepega">
-	<h2><p align="center">黑历史上的R星，可算称之为游戏界“血的教训”</p></h2>
+    <nav aria-label="Main Navigation">
+        <img src="{% static 'img/logo.png' %}" class="logo" alt="">
+        <div1><b>JiaGou</b></div1>
+        <div2>GamesBlog</div2>
+        <div class="a" style="position: relative;top: 20px;left: 600px"><img src="{% static 'img/connect.png' %}"></div>
+        <ul>
+            <li><a href="/index/">主頁</a></li>
+            <li class="dropdown">
+                <!-- aria-expanded needs managed with Javascript -->
+                <button type="button" class="dropdown__title" aria-expanded="false" aria-controls="sweets-dropdown">
+                    &nbsp;&nbsp;&nbsp;&nbsp;博文
+                </button>
+                <ul class="dropdown__menu" id="sweets-dropdown">
+                    <li><a href="/zx/">资讯</a></li>
+                    <li><a href="/wz/">文章</a></li>
+                </ul>
+            </li>
+            <li><a href="/aboutUs/">關於</a></li>
+            <li><a href="/login01/">聯係</a></li>
+        </ul>
 
-	
-	
-	<p>&nbsp;&nbsp;&nbsp;&nbsp;相信很多人都知道《侠盗猎车手：罪恶都市》，《侠盗猎车手：圣安地列斯》等侠盗猎车手作品。而2013年发布的《GTA5》截止到2018年总收入超60亿美元，又被称为史上最赚钱的游戏。至今这个数字还在上涨。看来全球玩家对《GTA5》是真爱啊。而未发布的大作《GTA6》在网络论坛上的传言也是很多的。相信《GTA6》的发行又能大捞一笔。但今天的话题不是《GTA6》！我们这次要探讨一下黑历史的R星，喜欢你能够喜欢</p>
-	</br><img src="{% static 'img/wz/文章02配图/01.jpg' %}" style="width:100%;height:auto"></br>
-	<p><h5>《侠盗猎魔》事件</h5></p>
-	<p>&nbsp;&nbsp;&nbsp;&nbsp; 在R星发布《侠盗猎车手：罪恶都市》后不久又发布了一部游戏作品《侠盗猎魔》（目前算得上是R星的非主流冷门作品）。这款《侠盗猎魔》也是一款自由度较高的暴力冒险游戏，不过这款游戏除了暴力就是血腥加上其画风更加让人恐惧。很多国外媒体这样评论《侠盗猎魔》，“这款游戏充斥着恐怖，血腥。游戏根本与冒险，闯关没什么关系，与其说它是一款游戏，倒不如说是一个毁灭自己的工具。“在2004年英国某地一名仅14岁的少年将自己的朋友杀害。某些报道称，警察在凶手的住处发现了一款名为《侠盗猎魔》的游戏，受害人父母也声称谋杀与游戏有关。这一事件在当时社会上引起巨大轰动，很多游戏零售商迫不得已将《侠盗猎魔》下架。美国律师Jack Thompson曾指责R星，他说：”美国有很多起因为玩这种游戏的青少年，这些游戏就是在谋杀。“Jack Thompson也曾起诉过R星，要求赔偿接近五千万美元，令人意外的是，警方在当天也宣布了调查结果。表示谋杀与游戏毫无关联，警方认定杀人动机是因为抢劫财物。这场闹剧也就这么过去了，但还是对当时的R星造成了一些负面影响和财产损失</p>
-	</br><img src="{% static 'img/wz/文章02配图/02.jpg' %}" style="width:100%;height:auto"></br>
-	<p>&nbsp;&nbsp;&nbsp;&nbsp; 令人没想到的是，2007年《侠盗猎魔2》竟然宣布发售。第一部都让很多社会界人士反对，居然还有第二版？R星内部在开发《侠盗猎魔2》时也曾受到很多舆论压力。游戏一发售，ESRB直接AO等级，BBFC直接拒绝评级，结果就是《侠盗猎魔2》无法出售。最终R星通过打马赛克的方式让评级降到M级。目前该游戏不能上架到Steam上。游戏中的暴力成分，血腥成分实在难以让人接受，可以说是邪典游戏了。不过，小编相信这款游戏不会再有续作了</p>
-	</br><img src="{% static 'img/wz/文章02配图/03.jpg' %}" style="width:100%;height:auto"></br>
-	<p><h5>“热咖啡”事件</h5></p>
-	<p>&nbsp;&nbsp;&nbsp;&nbsp; 2004年R星发布《侠盗猎车手：圣安地列斯》，这一游戏涉及很多敏感话题。例如游戏中的毒贩进行毒品交易，众多帮派进行斗争，但这都不是游戏中最大的亮点。R星这次真的很大胆，加入与性有关的内容。R星想通过大胆尝试，做出更加出色的好游戏，但是为了游戏销量能够更好他们不得不隐藏这一“色”代码，若该游戏评为AO级意味着游戏销量会大大缩减。但游戏目前已经开发完成，想要删除原来的代码还需要另外延期发布，但他们不想这样更加麻烦。于是隐藏了代码.....游戏评级时，《侠盗猎车手：圣安地列斯》也顺利逃过一劫。但更大的麻烦还在后面。</p>
-	</br><img src="{% static 'img/wz/文章02配图/04.jpg' %}" style="width:100%;height:auto"></br>
-	<p>&nbsp;&nbsp;&nbsp;&nbsp; Patrick Wildenborg是一名软件工程师，业余时间喜欢玩一些游戏，但对游戏不是很痴迷。某天他向朋友借了《侠盗猎车手：罪恶都市》这让他被游戏给吸引住了。当然，他还喜欢研究游戏代码，从中寻找更多的内容。最后他成为了游戏Mod中的一员。《侠盗猎车手：圣安地列斯》发布后，Patrick Wildenborg立马购买且研究了这款游戏，他发现这款《侠盗猎车手：圣安地列斯》有一些特殊的代码文件，他尝试播放出来这些代码文件。他看到竟然是成人性行为的动画，这太荒唐了。一开始Patrick Wildenborg并未将“热咖啡“公之于众。 直到《侠盗猎车手：圣安地列斯》PC版发售第二天。给R星来了一杯“热咖啡”~</p>
-	</br><img src="{% static 'img/wz/文章02配图/05.jpg' %}" style="width:100%;height:auto"></br>
-	<p>&nbsp;&nbsp;&nbsp;&nbsp;油管上可见的“热咖啡”视频一下子点击量破万。R星公司连续不断被来电，而此时R星不敢接听任何一个电话。“热咖啡”事件沸沸扬扬，这对Patrick Wildenborg也造成一定的困扰，后来他在网络上发布了一封公开信，表明Mod中内容是通过修改游戏代码才能得到。Patrick Wildenborg认为这样审查机构就不会缠着R星不放了。但R星内部人员好像不太对劲，也有可能是消息未及时传达到各级人员。R星公关部第二天将“热咖啡”推卸给Mod作者，并表示“游戏内容是Mod作者制作替换的”，甚至声明“本公司没有制作色情内容的人”。爱好GTA的Mod作者就这样背锅了。小编认为，把责任推给Mod作者更让问题变得复杂，倒不如说清事实，改邪归正。此时Mod作者们郑重声明是游戏中被隐藏的代码，Mod作者没有添加任何Mod，只是把隐藏的元素展现出来 </p>
-	<p>&nbsp;&nbsp;&nbsp;&nbsp;2005年，《侠盗猎车手：圣安地列斯》由此前的M级被重新评级成AO级。游戏在各大零售商下架。R星召回了游戏，再次发布了新版本。并表示新版本无法使用“热咖啡”Mod。R星在至今谈起“热咖啡”都是一个负担。经历过“热咖啡”事件的R星，都让家长们自觉抵制“R星游戏”</p>
-	</br><img src="{% static 'img/wz/文章02配图/06.jpg' %}" style="width:100%;height:auto"></br>
-	<p><h5>《游戏改变者》的播出</h5></p>
-	<p>&nbsp;&nbsp;&nbsp;&nbsp; 2015年，英国BBC 2台播出了《游戏改变者》，影片就是根据R星《侠盗猎车手：罪恶都市》发行后出现的黑历史事件改编。不过这个影片并未经过R星授权。影片一开始讲述了一名少年沉迷《侠盗猎车手：罪恶都市》最终杀死了三名警察，被捕后引起了律师Jack的注意。又讲述了《侠盗猎车手：圣安地列斯》的发行及“热咖啡”事件。最后讲述了Jack没有击垮R星反被R星打垮，但就是因为Jack的出现，才出台了禁止暴力游戏的相关法律。令人深思...</p>
-	</br><img src="{% static 'img/wz/文章02配图/07.jpg' %}" style="width:100%;height:auto"></br>
-	<p>&nbsp;&nbsp;&nbsp;&nbsp; R星一方面想要制作“优秀大胆”的游戏，另一方面又挑战着法律和道德的底线。R星的黑历史也促使出现了涉及游戏方面的法律文件。给未来的游戏划分了一个更明显的法律和道德界限。</p>
-	<p>&nbsp;&nbsp;&nbsp;&nbsp; 不得不说，游戏创造的初始目的就是让人们消遣娱乐，并不是让玩家沉迷于游戏，毁于游戏。一个真正的优秀游戏是在于帮助人们更好的走向未来的人生。
+        <br />
+        <div class="space"></div>
+    </nav>
+    <div class="pepegaa">
+        <div class="pepega">
+            <h2>
+                <p align="center">黑历史上的R星，可算称之为游戏界“血的教训”</p>
+            </h2>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;相信很多人都知道《侠盗猎车手：罪恶都市》，《侠盗猎车手：圣安地列斯》等侠盗猎车手作品。而2013年发布的《GTA5》截止到2018年总收入超60亿美元，又被称为史上最赚钱的游戏。至今这个数字还在上涨。看来全球玩家对《GTA5》是真爱啊。而未发布的大作《GTA6》在网络论坛上的传言也是很多的。相信《GTA6》的发行又能大捞一笔。但今天的话题不是《GTA6》！我们这次要探讨一下黑历史的R星，喜欢你能够喜欢
+            </p>
+            </br><img src="{% static 'img/wz/文章02配图/01.jpg' %}" style="width:100%;height:auto"></br>
+            <p>
+            <h5>《侠盗猎魔》事件</h5>
+            </p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;
+                在R星发布《侠盗猎车手：罪恶都市》后不久又发布了一部游戏作品《侠盗猎魔》（目前算得上是R星的非主流冷门作品）。这款《侠盗猎魔》也是一款自由度较高的暴力冒险游戏，不过这款游戏除了暴力就是血腥加上其画风更加让人恐惧。很多国外媒体这样评论《侠盗猎魔》，“这款游戏充斥着恐怖，血腥。游戏根本与冒险，闯关没什么关系，与其说它是一款游戏，倒不如说是一个毁灭自己的工具。“在2004年英国某地一名仅14岁的少年将自己的朋友杀害。某些报道称，警察在凶手的住处发现了一款名为《侠盗猎魔》的游戏，受害人父母也声称谋杀与游戏有关。这一事件在当时社会上引起巨大轰动，很多游戏零售商迫不得已将《侠盗猎魔》下架。美国律师Jack
+                Thompson曾指责R星，他说：”美国有很多起因为玩这种游戏的青少年，这些游戏就是在谋杀。“Jack
+                Thompson也曾起诉过R星，要求赔偿接近五千万美元，令人意外的是，警方在当天也宣布了调查结果。表示谋杀与游戏毫无关联，警方认定杀人动机是因为抢劫财物。这场闹剧也就这么过去了，但还是对当时的R星造成了一些负面影响和财产损失
+            </p>
+            </br><img src="{% static 'img/wz/文章02配图/02.jpg' %}" style="width:100%;height:auto"></br>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;
+                令人没想到的是，2007年《侠盗猎魔2》竟然宣布发售。第一部都让很多社会界人士反对，居然还有第二版？R星内部在开发《侠盗猎魔2》时也曾受到很多舆论压力。游戏一发售，ESRB直接AO等级，BBFC直接拒绝评级，结果就是《侠盗猎魔2》无法出售。最终R星通过打马赛克的方式让评级降到M级。目前该游戏不能上架到Steam上。游戏中的暴力成分，血腥成分实在难以让人接受，可以说是邪典游戏了。不过，小编相信这款游戏不会再有续作了
+            </p>
+            </br><img src="{% static 'img/wz/文章02配图/03.jpg' %}" style="width:100%;height:auto"></br>
+            <p>
+            <h5>“热咖啡”事件</h5>
+            </p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;
+                2004年R星发布《侠盗猎车手：圣安地列斯》，这一游戏涉及很多敏感话题。例如游戏中的毒贩进行毒品交易，众多帮派进行斗争，但这都不是游戏中最大的亮点。R星这次真的很大胆，加入与性有关的内容。R星想通过大胆尝试，做出更加出色的好游戏，但是为了游戏销量能够更好他们不得不隐藏这一“色”代码，若该游戏评为AO级意味着游戏销量会大大缩减。但游戏目前已经开发完成，想要删除原来的代码还需要另外延期发布，但他们不想这样更加麻烦。于是隐藏了代码.....游戏评级时，《侠盗猎车手：圣安地列斯》也顺利逃过一劫。但更大的麻烦还在后面。
+            </p>
+            </br><img src="{% static 'img/wz/文章02配图/04.jpg' %}" style="width:100%;height:auto"></br>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp; Patrick
+                Wildenborg是一名软件工程师，业余时间喜欢玩一些游戏，但对游戏不是很痴迷。某天他向朋友借了《侠盗猎车手：罪恶都市》这让他被游戏给吸引住了。当然，他还喜欢研究游戏代码，从中寻找更多的内容。最后他成为了游戏Mod中的一员。《侠盗猎车手：圣安地列斯》发布后，Patrick
+                Wildenborg立马购买且研究了这款游戏，他发现这款《侠盗猎车手：圣安地列斯》有一些特殊的代码文件，他尝试播放出来这些代码文件。他看到竟然是成人性行为的动画，这太荒唐了。一开始Patrick
+                Wildenborg并未将“热咖啡“公之于众。 直到《侠盗猎车手：圣安地列斯》PC版发售第二天。给R星来了一杯“热咖啡”~</p>
+            </br><img src="{% static 'img/wz/文章02配图/05.jpg' %}" style="width:100%;height:auto"></br>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;油管上可见的“热咖啡”视频一下子点击量破万。R星公司连续不断被来电，而此时R星不敢接听任何一个电话。“热咖啡”事件沸沸扬扬，这对Patrick
+                Wildenborg也造成一定的困扰，后来他在网络上发布了一封公开信，表明Mod中内容是通过修改游戏代码才能得到。Patrick
+                Wildenborg认为这样审查机构就不会缠着R星不放了。但R星内部人员好像不太对劲，也有可能是消息未及时传达到各级人员。R星公关部第二天将“热咖啡”推卸给Mod作者，并表示“游戏内容是Mod作者制作替换的”，甚至声明“本公司没有制作色情内容的人”。爱好GTA的Mod作者就这样背锅了。小编认为，把责任推给Mod作者更让问题变得复杂，倒不如说清事实，改邪归正。此时Mod作者们郑重声明是游戏中被隐藏的代码，Mod作者没有添加任何Mod，只是把隐藏的元素展现出来
+            </p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;2005年，《侠盗猎车手：圣安地列斯》由此前的M级被重新评级成AO级。游戏在各大零售商下架。R星召回了游戏，再次发布了新版本。并表示新版本无法使用“热咖啡”Mod。R星在至今谈起“热咖啡”都是一个负担。经历过“热咖啡”事件的R星，都让家长们自觉抵制“R星游戏”
+            </p>
+            </br><img src="{% static 'img/wz/文章02配图/06.jpg' %}" style="width:100%;height:auto"></br>
+            <p>
+            <h5>《游戏改变者》的播出</h5>
+            </p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp; 2015年，英国BBC
+                2台播出了《游戏改变者》，影片就是根据R星《侠盗猎车手：罪恶都市》发行后出现的黑历史事件改编。不过这个影片并未经过R星授权。影片一开始讲述了一名少年沉迷《侠盗猎车手：罪恶都市》最终杀死了三名警察，被捕后引起了律师Jack的注意。又讲述了《侠盗猎车手：圣安地列斯》的发行及“热咖啡”事件。最后讲述了Jack没有击垮R星反被R星打垮，但就是因为Jack的出现，才出台了禁止暴力游戏的相关法律。令人深思...
+            </p>
+            </br><img src="{% static 'img/wz/文章02配图/07.jpg' %}" style="width:100%;height:auto"></br>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;
+                R星一方面想要制作“优秀大胆”的游戏，另一方面又挑战着法律和道德的底线。R星的黑历史也促使出现了涉及游戏方面的法律文件。给未来的游戏划分了一个更明显的法律和道德界限。</p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp; 不得不说，游戏创造的初始目的就是让人们消遣娱乐，并不是让玩家沉迷于游戏，毁于游戏。一个真正的优秀游戏是在于帮助人们更好的走向未来的人生。
+            </p>
+            <p align="right">转自百度百家号<a
+                    href="https://baijiahao.baidu.com/s?id=1664040903396828824&wfr=spider&for=pc">原文链接</a></p>
+            </br>
+        </div>
+    </div>
 
-</p>
-	
-	
-	<p align="right">转自百度百家号<a href="https://baijiahao.baidu.com/s?id=1664040903396828824&wfr=spider&for=pc">原文链接</a></p>
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	</br>
-	</div>
-	</div>
-<main >
+    <main>
+    </main>
 
-
-
-</main>
-
- 
-<footer>
-
-	
-	
-    </br>
-    <p>&copy; 2021 513's GamesBlog </p>
-</footer>
+    <footer>
+        </br>
+        <p>&copy; 2021 513's GamesBlog </p>
+    </footer>
 </body>
+
 </html>
